@@ -127,9 +127,17 @@ form {
 
 @media (max-width:500px){
   form{
-    width: 75vw;
+    width: 85vw;
   }
   .input-field {
-    max-width: 65vw
+    max-width: 75vw
+  }
+}
+@media (max-width:380px){
+  form{
+    width: 90vw;
+  }
+  .input-field {
+    max-width: 80vw
   }
 }
