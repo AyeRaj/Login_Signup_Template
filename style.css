@@ -14,7 +14,7 @@ body, input {
   position: absolute;
   height: 100vh;
   width: 100vw;
-  transition: 1s 0.4s ease-in-out;
+  /* transition: 1s 0.4s ease-in-out; */
   display: grid;
 }
 
@@ -78,6 +78,7 @@ form {
 .social-text {
   padding: 0.7rem 0;
   font-size: 1rem;
+  text-align: center;
 }
 
 .social-media {
@@ -127,5 +128,8 @@ form {
 @media (max-width:500px){
   form{
     width: 75vw;
+  }
+  .input-field {
+    max-width: 65vw
   }
 }
