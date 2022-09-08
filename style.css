@@ -12,7 +12,7 @@ body, input {
 
 .signin-signup {
   position: absolute;
-  height: 100vh;
+  height: 95vh;
   width: 100vw;
   /* transition: 1s 0.4s ease-in-out; */
   display: grid;
@@ -25,8 +25,8 @@ form {
   justify-content: center;
   flex-direction: column;
   overflow: hidden;
-  width: 400px;
-  height: 80%;
+  width: 380px;
+  height: 90%;
   margin: auto;
   border-radius: 5px;
   box-shadow: 0px 0px 25px -10px black;
@@ -125,7 +125,7 @@ form {
   background-color: #4d84e2;
 }
 
-@media (max-width:500px){
+@media (max-width:450px){
   form{
     width: 85vw;
   }
@@ -135,7 +135,7 @@ form {
 }
 @media (max-width:380px){
   form{
-    width: 90vw;
+    width: 95vw;
   }
   .input-field {
     max-width: 80vw
