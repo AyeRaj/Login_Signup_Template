@@ -124,4 +124,8 @@ form {
   background-color: #4d84e2;
 }
 
-
+@media (max-width:500px){
+  form{
+    width: 75vw;
+  }
+}
