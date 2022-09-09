@@ -146,9 +146,13 @@ form {
     max-width: 75vw
   }
 }
-@media (max-width:380px){
+@media (max-width:400px){
   form{
     width: 95vw;
+    border-radius: 0px;
+    box-shadow: none;
+    border: none;
+    background-color: rgb(62 62 62 / 0%);
   }
   .input-field {
     max-width: 80vw
