@@ -124,7 +124,8 @@ form {
   background-color: #3aa6b6;
   border: none;
   outline: none;
-  height: 49px;
+  /* height: 49px; */
+  padding: 15px;
   border-radius: 49px;
   color: #fff;
   text-transform: uppercase;
