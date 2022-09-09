@@ -121,7 +121,7 @@ form {
 
 .btn {
   width: 150px;
-  background-color: #0a3276;
+  background-color: #3aa6b6;
   border: none;
   outline: none;
   height: 49px;
@@ -135,7 +135,7 @@ form {
 }
 
 .btn:hover {
-  background-color: #4d84e2;
+  background-color: #3dbcd0;
 }
 
 @media (max-width:450px){
