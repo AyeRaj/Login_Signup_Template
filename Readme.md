@@ -48,7 +48,7 @@ HTML & CSS only...
 
 ### Sign View
 
-![App Screenshot](./Screenshots/Login_Phone_11zon.png)
+![App Screenshot](./Screenshots/Login_Phone_.png)
 -
 
 ### Signup View
