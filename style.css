@@ -15,13 +15,23 @@
   opacity: 0.89;
 } */
 
-html{
+/* not supported in old browser */
+/* html{
   background: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   opacity: 0.89;
+} */
+
+/* supported in all browser */
+html {
+  background: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  opacity: 0.89;
+  z-index: -1;
 }
 
 body, input {
